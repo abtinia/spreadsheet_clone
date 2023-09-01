@@ -1,0 +1,17 @@
+.cell_row {
+  display: flex;
+}
+.cell {
+  width: 80px;
+  border: 1px solid #555;
+  height: 40px;
+  outline: none;
+  box-sizing: border-box;
+}
+.cell.header {
+  text-align: center;
+  background: #ddd;
+}
+.cell:focus {
+  border: 3px solid dodgerblue;
+}
