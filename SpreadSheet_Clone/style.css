@@ -17,7 +17,7 @@
   background: #ddd;
 }
 .cell.header.active {
-  background: dodgerblue;
+  background: rgb(146, 199, 252);
   color: white;
 }
 .cell:focus {
